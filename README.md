@@ -1,18 +1,2 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## LED Mania
+Utilizes a 16 x 16 LED Matrix as well as 4 buttons and an arduino in order to be able to play stepmania. If you would like to replicate it you can change the button variables as well as the port variable in order to match your hardware and then run the Ring.ino and upload it to your arduino then run App.java on your computer. You will need to import processing. If you wish to add songs to the list add any songs to the songs folder such that it has the order Songs -> pack -> song. Will only play .mp3 files though any .sm file can be run.
