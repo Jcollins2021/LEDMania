@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Library/Frameworks/javafx-sdk-20.0.1/lib/**/*.jar",
+        "/Library/Frameworks/core.jar",
+        "/Library/Frameworks/sound/library/javamp3-1.0.4.jar",
+        "/Library/Frameworks/sound/library/jsyn-20171016.jar",
+        "/Library/Frameworks/sound/library/sound.jar",
+        "/Library/Frameworks/serial/library/jssc.jar",
+        "/Library/Frameworks/serial/library/serial.jar"
+    ]
+}

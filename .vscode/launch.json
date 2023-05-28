@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "LEDMania_311b40f0"
+        },
+        {
+            "type": "java",
+            "name": "StepFileReader",
+            "request": "launch",
+            "mainClass": "StepFileReader",
+            "projectName": "LEDMania_311b40f0"
+        },
+        {
+            "type": "java",
+            "name": "StepSongPlayer",
+            "request": "launch",
+            "mainClass": "StepSongPlayer",
+            "projectName": "LEDMania_311b40f0"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "LEDMania_311b40f0",
+            "vmArgs": "--module-path \"/Library/Frameworks/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.graphics"
+        }
+    ]
+}
